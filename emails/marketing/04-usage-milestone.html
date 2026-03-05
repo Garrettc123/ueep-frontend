@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Usage Milestone - UEEP</title>
+<style>@media only screen and (max-width:600px){.wrapper{width:100%!important;padding:10px!important}}@media(prefers-color-scheme:dark){.email-bg{background:#1a1a2e!important}.card{background:#16213e!important;color:#e0e0e0!important}}</style></head>
+<body style="margin:0;padding:0;background:#f5f7fa;font-family:Inter,Arial,sans-serif;" class="email-bg">
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="background:#f5f7fa;padding:40px 20px;"><tr><td align="center">
+<table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;" class="card">
+  <tr><td style="background:linear-gradient(135deg,#34C759,#007AFF);padding:24px 40px;border-radius:12px 12px 0 0;" align="center"><h1 style="color:#fff;font-size:24px;font-weight:700;margin:0;">UEEP</h1></td></tr>
+  <tr><td style="background:#fff;padding:40px;" class="card" align="center">
+    <div style="font-size:48px;margin-bottom:16px;">&#127942;</div>
+    <h2 style="color:#1a1a2e;font-size:24px;font-weight:700;margin:0 0 8px 0;">Great job, {{firstName}}!</h2>
+    <p style="color:#34C759;font-size:15px;font-weight:600;margin:0 0 24px 0;">You've reached 100 transactions</p>
+    <!-- Stats Card -->
+    <div style="background:#f8f9ff;border:1px solid #e0e8ff;border-radius:12px;padding:24px;margin-bottom:24px;">
+      <table width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td style="width:33%;text-align:center;padding:0 8px;">
+            <p style="color:#888;font-size:11px;text-transform:uppercase;letter-spacing:1px;margin:0 0 4px 0;">Transactions</p>
+            <p style="color:#007AFF;font-size:22px;font-weight:700;margin:0;">{{transactionCount}}</p>
+          </td>
+          <td style="width:33%;text-align:center;padding:0 8px;border-left:1px solid #eee;border-right:1px solid #eee;">
+            <p style="color:#888;font-size:11px;text-transform:uppercase;letter-spacing:1px;margin:0 0 4px 0;">API Calls</p>
+            <p style="color:#007AFF;font-size:22px;font-weight:700;margin:0;">{{apiCalls}}</p>
+          </td>
+          <td style="width:33%;text-align:center;padding:0 8px;">
+            <p style="color:#888;font-size:11px;text-transform:uppercase;letter-spacing:1px;margin:0 0 4px 0;">Days Active</p>
+            <p style="color:#007AFF;font-size:22px;font-weight:700;margin:0;">{{daysActive}}</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <a href="{{analyticsUrl}}" style="display:inline-block;background:#007AFF;color:#fff;font-size:15px;font-weight:600;text-decoration:none;padding:14px 40px;border-radius:8px;margin-bottom:16px;">View Analytics &rarr;</a>
+    <div style="background:#f8f9ff;border-radius:8px;padding:16px 24px;text-align:left;">
+      <p style="color:#1a1a2e;font-size:13px;font-weight:600;margin:0 0 8px 0;">What's next?</p>
+      <p style="color:#555;font-size:13px;margin:0 0 4px 0;">&#8594; Set up usage alerts for your team</p>
+      <p style="color:#555;font-size:13px;margin:0 0 4px 0;">&#8594; Export your usage report</p>
+      <p style="color:#555;font-size:13px;margin:0;">&#8594; Upgrade to unlock unlimited transactions</p>
+    </div>
+  </td></tr>
+  <tr><td style="background:#1a1a2e;padding:24px 40px;border-radius:0 0 12px 12px;" align="center">
+    <p style="color:#555;font-size:11px;margin:0;">Garcar Enterprise &bull; 123 Main St, Alvarado TX 76009 &bull; <a href="{{unsubscribeUrl}}" style="color:#555;">Unsubscribe</a></p>
+  </td></tr>
+</table>
+</td></tr></table>
+</body></html>
