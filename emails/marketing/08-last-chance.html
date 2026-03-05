@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Last Chance - UEEP</title>
+<style>@media only screen and (max-width:600px){.wrapper{width:100%!important;padding:10px!important}}@media(prefers-color-scheme:dark){.email-bg{background:#1a1a2e}.card{background:#16213e}}</style>
+</head>
+<body style="margin:0;padding:0;background:#f5f7fa;font-family:Inter,Arial,sans-serif;" class="email-bg">
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="background:#f5f7fa;padding:40px 20px;"><tr><td align="center">
+<table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;" class="card">
+  <tr><td style="background:linear-gradient(135deg,#FF6B6B,#FF3B30);padding:24px 40px;border-radius:12px 12px 0 0;" align="center"><h1 style="color:#fff;font-size:28px;font-weight:700;margin:0;">&#9888; Don&apos;t Lose Your Data</h1></td></tr>
+  <tr><td style="background:#fff;padding:40px;" class="card">
+    <h2 style="color:#1a1a2e;font-size:22px;font-weight:700;margin:0 0 8px 0;">Hi {{firstName}}, your account expires in 7 days</h2>
+    <p style="color:#FF6B6B;font-size:13px;font-weight:600;margin:0 0 24px 0;">Urgent &mdash; Action Required to Keep Your Account</p>
+    <!-- Urgency Banner -->
+    <div style="background:#fff0f0;border:2px solid #FF6B6B;border-radius:12px;padding:20px;margin-bottom:24px;text-align:center;">
+      <p style="color:#FF3B30;font-size:18px;font-weight:700;margin:0 0 8px 0;">&#9201; Account expires: {{expiryDate}}</p>
+      <p style="color:#555;font-size:14px;margin:0;">After this date, your data will be scheduled for deletion</p>
+    </div>
+    <p style="color:#555;font-size:15px;line-height:1.6;margin:0 0 24px 0;">We&apos;d hate to see you go. Reactivate now to keep all your data, reports, and integrations intact.</p>
+    <!-- What You&apos;ll Lose -->
+    <div style="background:#f8f9ff;border:1px solid #e0e8ff;border-radius:12px;padding:20px;margin-bottom:24px;">
+      <p style="color:#1a1a2e;font-size:14px;font-weight:700;margin:0 0 12px 0;">What happens if you don&apos;t reactivate:</p>
+      <p style="color:#FF6B6B;font-size:13px;margin:0 0 6px 0;">&#10007; All transaction data deleted</p>
+      <p style="color:#FF6B6B;font-size:13px;margin:0 0 6px 0;">&#10007; API integrations disconnected</p>
+      <p style="color:#FF6B6B;font-size:13px;margin:0 0 6px 0;">&#10007; Team access removed</p>
+      <p style="color:#FF6B6B;font-size:13px;margin:0;">&#10007; Custom reports lost</p>
+    </div>
+    <!-- Special Offer -->
+    <div style="background:linear-gradient(135deg,#f0f7ff,#e8f5e9);border-radius:12px;padding:20px;margin-bottom:24px;text-align:center;">
+      <p style="color:#007AFF;font-size:13px;font-weight:700;margin:0 0 8px 0;">&#127381; EXCLUSIVE RETENTION OFFER</p>
+      <p style="color:#1a1a2e;font-size:22px;font-weight:700;margin:0 0 4px 0;">40% OFF for 3 months</p>
+      <p style="color:#555;font-size:13px;margin:0;">Use code: <strong>COMEBACK40</strong> &bull; Expires {{offerExpiry}}</p>
+    </div>
+    <a href="{{reactivateUrl}}" style="display:block;background:#FF3B30;color:#fff;font-size:16px;font-weight:700;text-decoration:none;padding:16px 40px;border-radius:8px;text-align:center;margin-bottom:16px;">Reactivate My Account &rarr;</a>
+    <p style="text-align:center;margin:0 0 8px 0;"><a href="{{supportUrl}}" style="color:#007AFF;font-size:13px;">Talk to our team first</a></p>
+  </td></tr>
+  <tr><td style="background:#1a1a2e;padding:24px 40px;border-radius:0 0 12px 12px;" align="center">
+    <p style="color:#555;font-size:11px;margin:0;">Garcar Enterprise &bull; 123 Main St, Alvarado TX 76009 &bull; <a href="{{unsubscribeUrl}}" style="color:#555;">Unsubscribe</a></p>
+  </td></tr>
+</table>
+</td></tr></table>
+</body></html>
