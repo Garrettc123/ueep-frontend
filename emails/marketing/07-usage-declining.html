@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Usage Declining - UEEP</title>
+<style>@media only screen and (max-width:600px){.wrapper{width:100%!important;padding:10px!important}}@media(prefers-color-scheme:dark){.email-bg{background:#1a1a2e}.card{background:#16213e}}</style>
+</head>
+<body style="margin:0;padding:0;background:#f5f7fa;font-family:Inter,Arial,sans-serif;" class="email-bg">
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="background:#f5f7fa;padding:40px 20px;"><tr><td align="center">
+<table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;" class="card">
+  <tr><td style="background:linear-gradient(135deg,#FF9500,#FF6B6B);padding:24px 40px;border-radius:12px 12px 0 0;" align="center"><h1 style="color:#fff;font-size:28px;font-weight:700;margin:0;">&#128161; We Miss You!</h1></td></tr>
+  <tr><td style="background:#fff;padding:40px;" class="card">
+    <h2 style="color:#1a1a2e;font-size:22px;font-weight:700;margin:0 0 8px 0;">Hi {{firstName}}, we noticed you haven&apos;t logged in lately</h2>
+    <p style="color:#FF9500;font-size:13px;font-weight:600;margin:0 0 24px 0;">We&apos;re here to help &mdash; Let us know how we can improve</p>
+    <p style="color:#555;font-size:15px;line-height:1.6;margin:0 0 24px 0;">It looks like your activity on UEEP has slowed down. Is there anything we can help you with? We&apos;d love to hear from you.</p>
+    <!-- Survey -->
+    <div style="background:#fff8f0;border:1px solid #ffe0b2;border-radius:12px;padding:24px;margin-bottom:24px;">
+      <p style="color:#1a1a2e;font-size:15px;font-weight:700;margin:0 0 16px 0;">What&apos;s holding you back? (1 question)</p>
+      <div style="background:#fff;border:1px solid #ddd;border-radius:6px;padding:12px;margin-bottom:8px;cursor:pointer;">
+        <p style="color:#555;font-size:14px;margin:0;">&#9675; Too busy right now</p>
+      </div>
+      <div style="background:#fff;border:1px solid #ddd;border-radius:6px;padding:12px;margin-bottom:8px;">
+        <p style="color:#555;font-size:14px;margin:0;">&#9675; I&apos;m not sure how to use it</p>
+      </div>
+      <div style="background:#fff;border:1px solid #ddd;border-radius:6px;padding:12px;margin-bottom:8px;">
+        <p style="color:#555;font-size:14px;margin:0;">&#9675; Missing a feature I need</p>
+      </div>
+      <div style="background:#fff;border:1px solid #ddd;border-radius:6px;padding:12px;">
+        <p style="color:#555;font-size:14px;margin:0;">&#9675; Something else</p>
+      </div>
+    </div>
+    <!-- Resources -->
+    <p style="color:#1a1a2e;font-size:15px;font-weight:700;margin:0 0 16px 0;">Help resources:</p>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:24px;">
+      <tr><td style="padding:6px 0;"><a href="{{docsUrl}}" style="color:#007AFF;font-size:14px;text-decoration:none;">&#128218; Documentation &amp; guides</a></td></tr>
+      <tr><td style="padding:6px 0;"><a href="{{videoUrl}}" style="color:#007AFF;font-size:14px;text-decoration:none;">&#9654; Video tutorials</a></td></tr>
+      <tr><td style="padding:6px 0;"><a href="{{supportUrl}}" style="color:#007AFF;font-size:14px;text-decoration:none;">&#128172; Live chat support</a></td></tr>
+    </table>
+    <a href="{{supportUrl}}" style="display:inline-block;background:#FF9500;color:#fff;font-size:15px;font-weight:600;text-decoration:none;padding:14px 40px;border-radius:8px;">Get Support &rarr;</a>
+  </td></tr>
+  <tr><td style="background:#1a1a2e;padding:24px 40px;border-radius:0 0 12px 12px;" align="center">
+    <p style="color:#555;font-size:11px;margin:0;">Garcar Enterprise &bull; 123 Main St, Alvarado TX 76009 &bull; <a href="{{unsubscribeUrl}}" style="color:#555;">Unsubscribe</a></p>
+  </td></tr>
+</table>
+</td></tr></table>
+</body></html>
