@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Webinar Invitation - UEEP</title><style>@media only screen and (max-width:600px){.wrapper{width:100%!important;padding:10px!important}}</style></head>
+<body style="margin:0;padding:0;background:#f5f7fa;font-family:Inter,Arial,sans-serif;">
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="background:#f5f7fa;padding:40px 20px;"><tr><td align="center">
+<table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;">
+  <tr><td style="background:linear-gradient(135deg,#5856D6,#007AFF);padding:24px 40px;border-radius:12px 12px 0 0;" align="center">
+    <p style="color:rgba(255,255,255,0.8);font-size:11px;font-weight:700;letter-spacing:2px;margin:0 0 8px 0;">LIVE WEBINAR</p>
+    <h1 style="color:#fff;font-size:24px;font-weight:700;margin:0;">&#127909; {{webinarTitle}}</h1>
+  </td></tr>
+  <tr><td style="background:#fff;padding:40px;">
+    <h2 style="color:#1a1a2e;font-size:20px;font-weight:700;margin:0 0 8px 0;">Hi {{firstName}}, you&apos;re invited!</h2>
+    <p style="color:#5856D6;font-size:13px;font-weight:600;margin:0 0 24px 0;">Register now &mdash; limited spots available</p>
+    <!-- Event Details -->
+    <div style="background:#f8f9ff;border-radius:12px;padding:24px;margin-bottom:24px;">
+      <table width="100%" cellpadding="0" cellspacing="0">
+        <tr><td style="padding:8px 0;border-bottom:1px solid #e8ecff;"><p style="color:#555;font-size:13px;margin:0;">&#128197; <strong>Date:</strong> {{webinarDate}}</p></td></tr>
+        <tr><td style="padding:8px 0;border-bottom:1px solid #e8ecff;"><p style="color:#555;font-size:13px;margin:0;">&#128336; <strong>Time:</strong> {{webinarTime}} ({{timezone}})</p></td></tr>
+        <tr><td style="padding:8px 0;border-bottom:1px solid #e8ecff;"><p style="color:#555;font-size:13px;margin:0;">&#9200; <strong>Duration:</strong> {{webinarDuration}}</p></td></tr>
+        <tr><td style="padding:8px 0;"><p style="color:#555;font-size:13px;margin:0;">&#127891; <strong>Speaker:</strong> {{speakerName}}, {{speakerTitle}}</p></td></tr>
+      </table>
+    </div>
+    <!-- Topics -->
+    <p style="color:#1a1a2e;font-size:15px;font-weight:700;margin:0 0 16px 0;">What you&apos;ll learn:</p>
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:24px;">
+      <tr><td style="padding:8px 0;border-bottom:1px solid #f0f0f0;"><p style="color:#555;font-size:14px;margin:0;">&#10003; Best practices for enterprise SaaS payment automation</p></td></tr>
+      <tr><td style="padding:8px 0;border-bottom:1px solid #f0f0f0;"><p style="color:#555;font-size:14px;margin:0;">&#10003; How top companies reduced billing errors by 98%</p></td></tr>
+      <tr><td style="padding:8px 0;"><p style="color:#555;font-size:14px;margin:0;">&#10003; UEEP roadmap reveal: what&apos;s coming in Q1</p></td></tr>
+    </table>
+    <a href="{{registerUrl}}" style="display:block;background:#007AFF;color:#fff;font-size:16px;font-weight:700;text-decoration:none;padding:16px 40px;border-radius:8px;text-align:center;margin-bottom:16px;">Register Now (Free) &rarr;</a>
+    <p style="text-align:center;"><a href="{{recordingsUrl}}" style="color:#007AFF;font-size:13px;">View past webinar recordings</a></p>
+  </td></tr>
+  <tr><td style="background:#1a1a2e;padding:24px 40px;border-radius:0 0 12px 12px;" align="center">
+    <p style="color:#555;font-size:11px;margin:0;">Garcar Enterprise &bull; 123 Main St, Alvarado TX 76009 &bull; <a href="{{unsubscribeUrl}}" style="color:#555;">Unsubscribe</a></p>
+  </td></tr>
+</table></td></tr></table>
+</body></html>
