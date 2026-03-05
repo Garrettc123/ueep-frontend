@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Your subscription renews in 7 days - UEEP</title>
+<style>@media only screen and (max-width:600px){.wrapper{width:100%!important;padding:10px!important}}@media(prefers-color-scheme:dark){.email-bg{background:#1a1a2e!important}.card{background:#16213e!important;color:#e0e0e0!important}}</style></head>
+<body style="margin:0;padding:0;background:#f5f7fa;font-family:Inter,Arial,sans-serif;" class="email-bg">
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0" style="background:#f5f7fa;padding:40px 20px;"><tr><td align="center">
+<table width="600" cellpadding="0" cellspacing="0" style="max-width:600px;width:100%;" class="card">
+  <tr><td style="background:#007AFF;padding:24px 40px;border-radius:12px 12px 0 0;" align="center"><h1 style="color:#fff;font-size:24px;font-weight:700;margin:0;">UEEP</h1></td></tr>
+  <tr><td style="background:#fff;padding:40px;" class="card">
+    <h2 style="color:#1a1a2e;font-size:24px;font-weight:700;margin:0 0 8px 0;">Subscription Renewal Reminder</h2>
+    <p style="color:#666;font-size:15px;line-height:1.6;margin:0 0 24px 0;">Your subscription renews automatically in <strong>7 days</strong>. Here's a summary of your current plan:</p>
+    <!-- Plan Info -->
+    <table width="100%" cellpadding="0" cellspacing="0" style="background:#f8f9ff;border:1px solid #e0e8ff;border-radius:8px;margin-bottom:24px;">
+      <tr><td style="padding:16px 24px;border-bottom:1px solid #eee;">
+        <table width="100%"><tr><td style="font-size:13px;color:#888;">Plan</td><td style="font-size:14px;font-weight:600;color:#1a1a2e;text-align:right;">{{planName}}</td></tr></table>
+      </td></tr>
+      <tr><td style="padding:16px 24px;border-bottom:1px solid #eee;">
+        <table width="100%"><tr><td style="font-size:13px;color:#888;">Amount</td><td style="font-size:14px;font-weight:600;color:#1a1a2e;text-align:right;">{{planAmount}}/month</td></tr></table>
+      </td></tr>
+      <tr><td style="padding:16px 24px;border-bottom:1px solid #eee;">
+        <table width="100%"><tr><td style="font-size:13px;color:#888;">Renewal Date</td><td style="font-size:14px;font-weight:600;color:#007AFF;text-align:right;">{{renewalDate}}</td></tr></table>
+      </td></tr>
+      <tr><td style="padding:16px 24px;">
+        <table width="100%"><tr><td style="font-size:13px;color:#888;">Payment Method</td><td style="font-size:14px;color:#1a1a2e;text-align:right;">&bull;&bull;&bull;&bull; {{cardLast4}}</td></tr></table>
+      </td></tr>
+    </table>
+    <!-- Actions -->
+    <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:32px;">
+      <tr>
+        <td style="width:33%;padding:4px;"><a href="{{changePlanUrl}}" style="display:block;background:#007AFF;color:#fff;font-size:13px;font-weight:600;text-decoration:none;padding:12px;border-radius:8px;text-align:center;">Change Plan</a></td>
+        <td style="width:33%;padding:4px;"><a href="{{updatePaymentUrl}}" style="display:block;background:#f0f4ff;color:#007AFF;font-size:13px;font-weight:600;text-decoration:none;padding:12px;border-radius:8px;text-align:center;">Update Payment</a></td>
+        <td style="width:33%;padding:4px;text-align:center;"><a href="{{cancelUrl}}" style="color:#888;font-size:13px;text-decoration:underline;">Cancel</a></td>
+      </tr>
+    </table>
+    <!-- FAQ -->
+    <div style="border-top:1px solid #eee;padding-top:24px;">
+      <h3 style="color:#1a1a2e;font-size:15px;margin:0 0 16px 0;">Quick Answers</h3>
+      <p style="color:#555;font-size:13px;margin:0 0 8px 0;"><strong>Can I change plans?</strong> Yes, visit Billing in your dashboard anytime.</p>
+      <p style="color:#555;font-size:13px;margin:0 0 8px 0;"><strong>Can I add team members?</strong> Yes, invite from Settings &rarr; Team.</p>
+      <p style="color:#555;font-size:13px;margin:0;"><strong>Can I get a refund?</strong> Pro-rata refunds available within 7 days of billing.</p>
+    </div>
+  </td></tr>
+  <tr><td style="background:#1a1a2e;padding:24px 40px;border-radius:0 0 12px 12px;" align="center">
+    <p style="color:#555;font-size:11px;margin:0;">Garcar Enterprise &bull; 123 Main St, Alvarado TX 76009 &bull; <a href="{{unsubscribeUrl}}" style="color:#555;">Unsubscribe</a></p>
+  </td></tr>
+</table>
+</td></tr></table>
+</body></html>
